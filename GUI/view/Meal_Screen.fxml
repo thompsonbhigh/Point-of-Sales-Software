@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealScreenController">
+   <children>
+      <Button layoutX="101.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="46.0" prefWidth="83.0" text="Super G" /> 
+      <Button layoutX="101.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="46.0" prefWidth="83.0" text="Chow M" /> 
+      <Button layoutX="260.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="77.0" text="Diet Coke" /> 
+      <Button layoutX="329.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Orange C" /> 
+      <Button layoutX="328.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Teriyaki C" />
+      <Button layoutX="196.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Honey Sesame C" /> 
+      <Button layoutX="197.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Beijing B" /> 
+      <Button layoutX="328.0" layoutY="54.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Kung Pao C" /> 
+      <Button layoutX="328.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Black Pepper C" /> 
+      <Button layoutX="463.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="(P) Black Pepper SS." /> 
+      <Button layoutX="14.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="46.0" prefWidth="83.0" text="Fried R" /> 
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="46.0" prefWidth="83.0" text="White R" /> 
+      <Button layoutX="349.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="77.0" text="Sprite" /> 
+      <Button layoutX="173.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="77.0" text="Coke" /> 
+      <Button layoutX="436.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="77.0" text="Dr. P" /> 
+      <Button layoutX="86.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="77.0" text="Water" /> 
+      <Button layoutX="464.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="SweetFire C" />
+      <Button layoutX="196.0" layoutY="54.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Mushroom C" /> 
+      <Button layoutX="463.0" layoutY="54.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Broccoli B" /> 
+      <Button layoutX="463.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="String Bean C" /> 
+      <Button layoutX="196.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Tofu" /> 
+      <Button layoutX="463.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="(P) Honey Walnut S." />       
+      <Button fx:id="seasonalButton" layoutX="196.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Seasonal" visible="false" />
+
+      <Button fx:id="seasonalButton2" layoutX="328.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="122.0" text="Seasonal 2" visible="false" />
+
+      <Button layoutX="444.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleNextButtonClick" prefHeight="59.0" prefWidth="134.0" text="Next (Back to Main)" />
+      <Button layoutX="27.0" layoutY="315.0" mnemonicParsing="false" onAction="#addToOrder" prefHeight="59.0" prefWidth="134.0" text="Add to Order" />
+      <Button layoutX="14.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="83.0" text="Spring Roll" />
+      <Button layoutX="102.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="83.0" text="Egg Roll" />
+      <Button layoutX="58.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleMenuItemClick" prefHeight="35.0" prefWidth="83.0" text="Rangoon" />
+   </children>
+</Pane>

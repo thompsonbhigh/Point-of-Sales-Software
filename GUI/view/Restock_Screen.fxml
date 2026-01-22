@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="controller.RestockReportController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="restockButton" layoutX="508.0" layoutY="360.0" mnemonicParsing="false" onAction="#PlaceRestock" text="Place Order" />
+      <Label layoutX="14.0" layoutY="14.0" text="Restock Report" />
+      <Button fx:id="backButton" layoutX="555.0" layoutY="8.0" mnemonicParsing="false" onAction="#navigateToManagerScreen" text="Back" />
+      <TableView fx:id="restockTable" layoutX="-1.0" layoutY="48.0" prefHeight="309.0" prefWidth="601.0">
+        <columns>
+          <TableColumn fx:id="itemColumn" prefWidth="250.13334554433823" text="Item" />
+          <TableColumn fx:id="onHandColumn" prefWidth="115.46664428710938" text="On Hand" />
+            <TableColumn fx:id="minimumColumn" prefWidth="130.93328857421875" text="Minimum " />
+            <TableColumn fx:id="restockColumn" prefWidth="107.73333740234375" text="Restock" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
